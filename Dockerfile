@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN nmp install
+RUN npm install
 
 EXPOSE 3000
 
-CMD ["nmp", "run", "test"]  
+CMD ["npm", "run", "test"]  
